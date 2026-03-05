@@ -1,6 +1,7 @@
 <div align="center">
   
   # 🧬 MultiOmics-Integrator
+  # Developed by ANSH SHARMA (NIT Calicut)
   
   ### Deep Learning for Proteomics-Transcriptomics Data Fusion
   
