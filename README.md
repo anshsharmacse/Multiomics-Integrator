@@ -101,25 +101,64 @@ To develop an advanced deep learning platform that integrates proteomics and tra
 
 ### System Architecture
 
-```
-┌─────────────────────────────────────────────────────────────────┐
-│                     MultiOmics-Integrator                        │
-├─────────────────────────────────────────────────────────────────┤
-│                                                                  │
-│  ┌──────────────┐    ┌──────────────┐    ┌──────────────┐       │
-│  │   Frontend   │    │   Backend    │    │  ML Service  │       │
-│  │   (Next.js)  │◄──►│   (API)      │◄──►│  (TensorFlow)│       │
-│  └──────────────┘    └──────────────┘    └──────────────┘       │
-│         │                   │                    │               │
-│         ▼                   ▼                    ▼               │
-│  ┌──────────────┐    ┌──────────────┐    ┌──────────────┐       │
-│  │  Three.js    │    │   Zustand    │    │  WebSocket   │       │
-│  │  3D Engine   │    │   Store      │    │  Real-time   │       │
-│  └──────────────┘    └──────────────┘    └──────────────┘       │
-│                                                                  │
-└─────────────────────────────────────────────────────────────────┘
-```
+```mermaid
+flowchart LR
 
+%% Users
+U[User / Researcher]
+
+%% Frontend Layer
+subgraph Frontend Layer
+A[Next.js Interface]
+B[Three.js 3D Visualization]
+C[Zustand State Manager]
+end
+
+%% Backend Layer
+subgraph Backend Layer
+D[API Server]
+E[WebSocket Real-time Engine]
+end
+
+%% AI / ML Layer
+subgraph AI Layer
+F[TensorFlow Model]
+G[Multi-Omics Data Fusion Engine]
+end
+
+%% Data Layer
+subgraph Data Layer
+H[Proteomics Data]
+I[Transcriptomics Data]
+J[Prediction Results]
+end
+
+%% Flow
+U --> A
+A --> B
+A --> C
+A <--> D
+D <--> E
+D --> F
+F --> G
+G --> J
+H --> G
+I --> G
+E --> A
+
+%% Styling
+style U fill:#607D8B,stroke:#263238,stroke-width:2px,color:#fff
+style A fill:#4CAF50,stroke:#1B5E20,stroke-width:2px,color:#fff
+style B fill:#9C27B0,stroke:#4A148C,stroke-width:2px,color:#fff
+style C fill:#00BCD4,stroke:#006064,stroke-width:2px,color:#fff
+style D fill:#2196F3,stroke:#0D47A1,stroke-width:2px,color:#fff
+style E fill:#F44336,stroke:#B71C1C,stroke-width:2px,color:#fff
+style F fill:#FF9800,stroke:#E65100,stroke-width:2px,color:#fff
+style G fill:#FFC107,stroke:#FF6F00,stroke-width:2px,color:#000
+style H fill:#8BC34A,stroke:#33691E,stroke-width:2px,color:#000
+style I fill:#8BC34A,stroke:#33691E,stroke-width:2px,color:#000
+style J fill:#795548,stroke:#3E2723,stroke-width:2px,color:#fff
+```
 ### Neural Network Architecture
 
 ```
