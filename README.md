@@ -1,6 +1,6 @@
 <div align="center">
   
-  # 🧬 MultiOmics-Integrator
+  # MultiOmics-Integrator
   # Developed by ANSH SHARMA (NIT Calicut)
   
   ### Deep Learning for Proteomics-Transcriptomics Data Fusion
@@ -15,7 +15,7 @@
   
   **A comprehensive AI-powered platform for integrating proteomics and transcriptomics data**
   
-  [🚀 Live Demo](#-live-demo) • [✨ Features](#-features) • [🏗️ Architecture](#️-architecture) • [📊 Datasets](#-datasets) • [🔧 Installation](#-installation)
+  [ Live Demo](#-live-demo) • [ Features](#-features) • [ Architecture](#️-architecture) • [ Datasets](#-datasets) • [ Installation](#-installation)
   
 </div>
 
@@ -23,22 +23,22 @@
 
 ## 📖 Table of Contents
 
-- [🎯 Aim & Objectives](#-aim--objectives)
-- [✨ Features](#-features)
-- [🏗️ Architecture](#️-architecture)
-- [🤖 AI/ML Models](#-aiml-models)
-- [📊 Datasets](#-datasets)
-- [🔧 Installation](#-installation)
-- [🚀 Deployment](#-deployment)
-- [📸 Screenshots](#-screenshots)
-- [🛠️ Tech Stack](#️-tech-stack)
-- [📄 Citation](#-citation)
-- [🤝 Contributing](#-contributing)
-- [📧 Contact](#-contact)
+- [ Aim & Objectives](#-aim--objectives)
+- [ Features](#-features)
+- [ Architecture](#️-architecture)
+- [ AI/ML Models](#-aiml-models)
+- [ Datasets](#-datasets)
+- [ Installation](#-installation)
+- [ Deployment](#-deployment)
+- [ Screenshots](#-screenshots)
+- [ Tech Stack](#️-tech-stack)
+- [ Citation](#-citation)
+- [ Contributing](#-contributing)
+- [ Contact](#-contact)
 
 ---
 
-## 🎯 Aim & Objectives
+##  Aim & Objectives
 
 ### Aim
 To develop an advanced deep learning platform that integrates proteomics and transcriptomics data for comprehensive molecular profiling, enabling researchers to discover post-transcriptional regulatory mechanisms through interactive visualization and analysis.
@@ -47,17 +47,17 @@ To develop an advanced deep learning platform that integrates proteomics and tra
 
 | Objective | Description |
 |-----------|-------------|
-| 🔬 **Multi-Modal Integration** | Develop a multi-modal variational autoencoder to jointly learn representations from proteomics and transcriptomics data |
-| 🧠 **Cross-Modal Learning** | Implement cross-modal attention mechanisms to capture relationships between mRNA expression and protein abundance levels |
-| 📉 **Dimensionality Reduction** | Apply UMAP and t-SNE for visualization of integrated multi-omics landscapes |
-| 🔍 **Discordance Analysis** | Create analysis pipelines for identifying discordant mRNA-protein pairs revealing post-transcriptional regulatory mechanisms |
-| 🎨 **Interactive Visualization** | Build 3D interactive visualizations of molecular structures, neural network architectures, and analysis results |
+|  **Multi-Modal Integration** | Develop a multi-modal variational autoencoder to jointly learn representations from proteomics and transcriptomics data |
+|  **Cross-Modal Learning** | Implement cross-modal attention mechanisms to capture relationships between mRNA expression and protein abundance levels |
+|  **Dimensionality Reduction** | Apply UMAP and t-SNE for visualization of integrated multi-omics landscapes |
+|  **Discordance Analysis** | Create analysis pipelines for identifying discordant mRNA-protein pairs revealing post-transcriptional regulatory mechanisms |
+|  **Interactive Visualization** | Build 3D interactive visualizations of molecular structures, neural network architectures, and analysis results |
 
 ---
 
-## ✨ Features
+##  Features
 
-### 🏠 Multi-Page Interface
+###  Multi-Page Interface
 
 | Page | Description |
 |------|-------------|
@@ -68,7 +68,7 @@ To develop an advanced deep learning platform that integrates proteomics and tra
 | **Results** | View analysis results with UMAP/t-SNE plots and discordant pair analysis |
 | **About** | Learn about methodology, data sources, and developer information |
 
-### 🎨 3D Visualizations
+###  3D Visualizations
 
 <table>
   <tr>
@@ -87,7 +87,7 @@ To develop an advanced deep learning platform that integrates proteomics and tra
   </tr>
 </table>
 
-### 🤖 AI/ML Capabilities
+###  AI/ML Capabilities
 
 - **Multi-Modal Variational Autoencoder (VAE)**
 - **Cross-Modal Attention Mechanisms**
@@ -97,7 +97,7 @@ To develop an advanced deep learning platform that integrates proteomics and tra
 
 ---
 
-## 🏗️ Architecture
+##  Architecture
 
 ### System Architecture
 
@@ -139,7 +139,7 @@ Input Layer          Encoder           Latent Space         Decoder          Out
 
 ---
 
-## 🤖 AI/ML Models
+##  AI/ML Models
 
 ### Multi-Modal Variational Autoencoder
 
@@ -178,7 +178,7 @@ Where:
 
 ---
 
-## 📊 Datasets
+##  Datasets
 
 ### Sample Datasets Included
 
@@ -200,7 +200,7 @@ Where:
 
 ---
 
-## 🔧 Installation
+##  Installation
 
 ### Prerequisites
 
@@ -247,7 +247,7 @@ bun run db:generate
 
 ---
 
-## 🚀 Deployment
+##  Deployment
 
 ### Deploy to Vercel
 
@@ -308,7 +308,7 @@ bun run start
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 ### Frontend
 
@@ -397,7 +397,7 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ---
 
-## 📜 License
+##  License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
