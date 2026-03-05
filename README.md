@@ -159,6 +159,7 @@ style H fill:#8BC34A,stroke:#33691E,stroke-width:2px,color:#000
 style I fill:#8BC34A,stroke:#33691E,stroke-width:2px,color:#000
 style J fill:#795548,stroke:#3E2723,stroke-width:2px,color:#fff
 ```
+---
 ### Neural Network Architecture
 ```mermaid
 flowchart LR
