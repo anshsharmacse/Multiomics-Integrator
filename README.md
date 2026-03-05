@@ -281,21 +281,30 @@ bun run start
 
 ### Home Page
 > Beautiful landing page with 3D DNA helix animation
+<img width="1918" height="889" alt="image" src="https://github.com/user-attachments/assets/dd7f9b18-b2d8-4345-98aa-d6714b2a7f7d" />
 
 ### Data Upload
 > Upload interface with sample dataset selection
+<img width="1914" height="899" alt="image" src="https://github.com/user-attachments/assets/7e0c2dfa-16f8-41ff-812a-53ea24ae2718" />
+
 
 ### Analysis Dashboard
 > Real-time training visualization with progress metrics
+<img width="1919" height="907" alt="image" src="https://github.com/user-attachments/assets/0f41f3a9-c8f7-43f8-8068-c732aa0e2c40" />
+
 
 ### Neural Architecture
 > Interactive 3D neural network visualization
+<img width="1916" height="906" alt="image" src="https://github.com/user-attachments/assets/3d02058d-ee12-498a-8b12-4ded4a4492c5" />
 
 ### Results
 > UMAP/t-SNE plots and discordant pair analysis
+<img width="1919" height="857" alt="image" src="https://github.com/user-attachments/assets/c08b215e-c59f-4117-8686-1112c13e3266" />
+
 
 ### About Page
 > Methodology, data sources, and developer information
+<img width="1919" height="903" alt="image" src="https://github.com/user-attachments/assets/50d0bf27-56cc-4d10-8621-9c0db0dbd309" />
 
 ---
 
