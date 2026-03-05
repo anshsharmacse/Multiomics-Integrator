@@ -160,20 +160,30 @@ style I fill:#8BC34A,stroke:#33691E,stroke-width:2px,color:#000
 style J fill:#795548,stroke:#3E2723,stroke-width:2px,color:#fff
 ```
 ### Neural Network Architecture
+```mermaid
+flowchart LR
 
-```
-Input Layer          Encoder           Latent Space         Decoder          Output Layer
-┌─────────┐      ┌───────────┐       ┌───────────┐      ┌───────────┐      ┌─────────┐
-│ Genes   │      │ Hidden    │       │ Cross-    │      │ Hidden    │      │ Protein │
-│ 20,531  │─────►│ Layers    │──────►│ Modal     │─────►│ Layers    │─────►│ 12,753  │
-│         │      │ 512→256   │       │ Attention │      │ 256→512   │      │         │
-└─────────┘      └───────────┘       └───────────┘      └───────────┘      └─────────┘
-                         │                   │                   │
-                         ▼                   ▼                   ▼
-                   ┌───────────┐       ┌───────────┐      ┌───────────┐
-                   │   μ, σ    │       │ Latent    │      │  KL Div   │
-                   │ (128-dim) │       │ Vector z  │      │  Loss     │
-                   └───────────┘       └───────────┘      └───────────┘
+%% Main Pipeline
+A[Genes<br>20531] --> B[Encoder Hidden Layers<br>512 → 256]
+B --> C[Cross-Modal Attention]
+C --> D[Decoder Hidden Layers<br>256 → 512]
+D --> E[Protein Output<br>12753]
+
+%% Latent Components
+B --> F[μ , σ<br>128-dim]
+F --> G[Latent Vector z]
+G --> C
+G --> H[KL Divergence Loss]
+
+%% Styling
+style A fill:#4CAF50,stroke:#1B5E20,stroke-width:2px,color:#fff
+style B fill:#2196F3,stroke:#0D47A1,stroke-width:2px,color:#fff
+style C fill:#FF9800,stroke:#E65100,stroke-width:2px,color:#fff
+style D fill:#9C27B0,stroke:#4A148C,stroke-width:2px,color:#fff
+style E fill:#F44336,stroke:#B71C1C,stroke-width:2px,color:#fff
+style F fill:#00BCD4,stroke:#006064,stroke-width:2px,color:#fff
+style G fill:#FFC107,stroke:#FF6F00,stroke-width:2px,color:#000
+style H fill:#795548,stroke:#3E2723,stroke-width:2px,color:#fff
 ```
 
 ---
